@@ -16,11 +16,11 @@ var newton = celsius * (33/100);
 // Round Newton temperature
 newton = Math.floor(newton); 
 
-console.log('The temperature is ' + kelvin + ' degrees Kelvin.'
+console.log(`The temperature is ${kelvin} degrees Kelvin.`
 );
-console.log('The temperature is ' + celsius + ' degrees Celsius.'
+console.log(`The temperature is ${celsius} degrees Celsius.`
 );
-console.log('The temperature is ' + fahrenheit + ' degrees Fahrenheit.'
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`
 );
-console.log('The temperature is ' + newton + ' degrees Newton.'
+console.log(`The temperature is ${newton} degrees Newton.`
 );
